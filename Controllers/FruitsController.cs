@@ -32,7 +32,7 @@ namespace version.Controllers
         ///http://localhost:5140/api/Fruits/fruits?api-version=1.0
         public IActionResult GetFruitsListV2()
         {
-            string[] fruits = { "apple", "grapes", "guva", "Pine Apple", "kiwi" };
+            string[] fruits = { "appleee", "grapes", "guva", "Pine Apple", "kiwi" };
 
             var fruit = fruits[Random.Shared.Next(fruits.Length)];
 
